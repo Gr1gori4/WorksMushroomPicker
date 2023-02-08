@@ -367,7 +367,7 @@ bool Check_safety_margin()
 	}
 	else
 	{
-		cout << "\nнеиспр ";
+		cout << "\nнеиспр| ";
 		state = Go_home;
 		return false;
 	}
@@ -396,7 +396,7 @@ bool Check_forest()
 			cout << "гр.есть| ";
 			return true;
 		}
-	cout << "гр.нет ";
+	cout << "гр.нет| ";
 	state = Go_home;
 	return false;
 }
